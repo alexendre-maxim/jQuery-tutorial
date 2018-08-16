@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: #333333;
+    height: 44px;
+}
+nav .leftSide{
+    float: left;
+    width: 50%;
+}
+
+nav .leftSide ul{
+    list-style: none;
+    margin: 0;
+}
+
+nav .leftSide ul li{
+    display: inline-block;
+    padding: 12px;
+}
+
+nav .leftSide ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav .leftSide ul .active,
+nav .leftSide ul li:hover
+{
+    background-color: #49b150;
+}
+
+nav .rightSide{
+    float: right;
+    width: 50%;
+    margin-top: 10px;
+    
+}
+
+nav .rightSide .inputSearchA{
+    padding: 5px 10px;
+    border: 1px solid #757575;
+    border-radius: 5px;
+}
+
+.searchAdv{
+    margin-top: 20px;
+    float: right;
+     margin-right: 190px;
+    display: none;
+}
+.go,.advancedSearch{
+    background-color: #49b150;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.searchAdv input{
+    padding: 5px 10px;
+    border: 1px solid #757575;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.secondList{
+    margin-top: 0;
+    margin-left: 105px;
+    list-style: none;
+    background: #49b150;
+    width: 150px;
+    padding-left: 10px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    display: none;
+}
+
+.secondList li{
+    padding-top: 20px;
+    color: #fff;
+    cursor: pointer;
+}
