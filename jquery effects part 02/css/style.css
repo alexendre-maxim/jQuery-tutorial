@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: #333333;
+    height: 44px;
+}
+nav .leftSide{
+    float: left;
+    width: 50%;
+}
+
+nav .leftSide ul{
+    list-style: none;
+    margin: 0;
+}
+
+nav .leftSide ul li{
+    display: inline-block;
+    padding: 12px;
+}
+
+nav .leftSide ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav .leftSide ul .active,
+nav .leftSide ul li:hover
+{
+    background-color: #49b150;
+}
+
+nav .rightSide{
+    float: right;
+    width: 25%;
+}
+
+nav .rightSide ul{
+    list-style: none;
+}
+
+nav .rightSide ul li{
+    color: #fff;
+}
+
+.signIn{
+    float: right;
+    margin-left: 500px;
+    margin-right: -100px;
+    text-align: center;
+    background-color: #49b150;
+    color: #fff;
+    padding: 10px 20px 30px 20px;
+    border-radius: 10px;
+    font-family: 'arial';
+    margin-top: 20px;
+    display: none;
+}
+.signIn input{
+    margin-bottom: 10px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: #666;
+}
+.buttonC,.buttonCl{
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.logi{
+    cursor: pointer;
+    
+}
+.signUp{
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+    background-color: #49b150;
+    color: #fff;
+    padding: 10px 20px 30px 20px;
+    border-radius: 10px;
+    font-family: 'arial';
+    width: 0;
+    height: 0;
+    display: none;
+}
+.signUp table{
+    margin: 0 auto;
+}
+.signUp input{
+    margin-bottom: 10px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: #666;
+}
