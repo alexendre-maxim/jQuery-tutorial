@@ -1,0 +1,36 @@
+h2{
+    margin-bottom: 40px;
+}
+.listLanguages{
+    list-style:square;
+}
+
+.listLanguages li{
+    font-size: 20px;
+}
+
+.appendLang{
+    margin-top: 40px;
+}
+
+div{
+    margin: 20px  0;
+}
+
+div input{
+    padding: 5px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+div button{
+    background-color: #4fb3ee;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 20px;
+}
